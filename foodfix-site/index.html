@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foodfix - Cardápio digital e gestão de pedidos</title>
+  <meta name="description" content="Foodfix é um SaaS de cardápio digital e gestão de pedidos para restaurantes.">
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- AOS (Animate On Scroll) - animações sutis ao rolar -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-inner" data-aos="fade-down">
+      <div class="brand">
+        <img src="./assets/img/logo-foodfix.svg" alt="Foodfix" class="brand-logo">
+      </div>
+
+      <nav class="nav" id="nav">
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#funcionalidades">Funcionalidades</a>
+        <a href="#planos">Planos</a>
+        <a href="#contato">Contato</a>
+        <a href="https://loja.foodfixbr.com.br" class="nav-login-link">Área do lojista</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-text" data-aos="fade-right">
+          <p class="hero-pill">SaaS para restaurantes</p>
+
+          <h1>Tem um restaurante?<br><span>Use a Foodfix</span></h1>
+
+          <p class="hero-subtitle">
+            Modernize seu restaurante com um sistema completo de gestão.
+            Cardápio digital, pedidos em tempo real e relatórios em uma única plataforma.
+          </p>
+
+          <ul class="hero-list">
+            <li>Cardápio digital completo e personalizável</li>
+            <li>Gestão de pedidos em tempo real</li>
+            <li>Integração com meios de pagamento</li>
+            <li>Suporte técnico especializado</li>
+          </ul>
+
+          <div class="hero-buttons">
+            <a href="#planos" class="btn btn-primary">Começar teste grátis</a>
+            <a href="#como-funciona" class="btn btn-outline">Ver como funciona</a>
+          </div>
+
+          <div class="hero-metrics">
+            <div data-aos="fade-up" data-aos-delay="50">
+              <strong>+500</strong>
+              <span>restaurantes ativos</span>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="120">
+              <strong>+50k</strong>
+              <span>pedidos processados</span>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="190">
+              <strong>99%</strong>
+              <span>uptime</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="hero-card-img" data-aos="fade-left">
+            <img src="./assets/img/hero-restaurant.jpg" alt="Dono de restaurante usando Foodfix" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section class="section" id="como-funciona">
+      <div class="container">
+        <header class="section-header" data-aos="fade-up">
+          <h2>Como funciona a Foodfix</h2>
+          <p>Em poucos passos você deixa seu restaurante pronto para receber pedidos online.</p>
+        </header>
+
+        <div class="cards-3">
+          <div class="card" data-aos="fade-up" data-aos-delay="50">
+            <span class="step">1</span>
+            <h3>Crie sua conta</h3>
+            <p>Cadastre seu restaurante e configure formas de pagamento e entrega.</p>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-delay="130">
+            <span class="step">2</span>
+            <h3>Monte seu cardápio digital</h3>
+            <p>Adicione produtos, categorias, adicionais e fotos em poucos cliques.</p>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-delay="210">
+            <span class="step">3</span>
+            <h3>Comece a receber pedidos</h3>
+            <p>Seu cliente acessa o link ou QR Code e você gerencia tudo pelo painel.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FUNCIONALIDADES -->
+    <section class="section section-soft" id="funcionalidades">
+      <div class="container">
+        <header class="section-header" data-aos="fade-up">
+          <h2>Funcionalidades da Foodfix</h2>
+          <p>Tudo que você precisa para organizar pedidos, cardápio e entregas em um só lugar.</p>
+        </header>
+
+        <!-- BLOCO 1 - CARDÁPIO DIGITAL -->
+        <div class="feature-grid feature-block">
+          <div class="feature-text" data-aos="fade-right">
+            <h3>Cardápio digital completo e personalizável</h3>
+            <p>
+              Seu cardápio sempre atualizado, com fotos, descrições, adicionais pagos
+              e observações. Acesse por QR Code, link ou site do restaurante.
+            </p>
+            <ul class="feature-list">
+              <li>Atualização de preços em tempo real</li>
+              <li>Produtos em destaque e promoções</li>
+              <li>Adicionais e observações por produto</li>
+            </ul>
+          </div>
+
+          <div class="feature-media">
+            <div class="phone-mockup" data-aos="fade-left">
+              <img src="./assets/img/hero-phone.png" alt="Cardápio digital Foodfix no celular" />
+            </div>
+          </div>
+        </div>
+
+        <!-- BLOCO 2 - PAINEL DO LOJISTA -->
+        <div class="feature-grid feature-block">
+          <div class="feature-media">
+            <div class="dashboard-mockup" data-aos="fade-right">
+              <img src="./assets/img/dashboard-foodfix.png" alt="Dashboard Foodfix" />
+            </div>
+          </div>
+
+          <div class="feature-text" data-aos="fade-left">
+            <h3>Painel do lojista para controlar tudo em um só lugar</h3>
+            <p>
+              Visualize todos os pedidos, acompanhe o fluxo da cozinha, configure taxas de entrega
+              e acompanhe o financeiro direto do painel da Foodfix.
+            </p>
+            <ul class="feature-list">
+              <li>Pedidos em tempo real com status</li>
+              <li>Impressão automática (cozinha e balcão)</li>
+              <li>Resumo financeiro por período</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- BLOCO 3 - GRADE DE FUNCIONALIDADES -->
+        <div class="cards-3 feature-block">
+          <div class="card icon-card" data-aos="zoom-in" data-aos-delay="50">
+            <span class="icon">✔</span>
+            <h3>Gestão de pedidos</h3>
+            <p>Organize o fluxo da cozinha e do balcão com mais agilidade.</p>
+          </div>
+          <div class="card icon-card" data-aos="zoom-in" data-aos-delay="110">
+            <span class="icon">✔</span>
+            <h3>Delivery configurável</h3>
+            <p>Taxas por bairro ou distância e opção de retirada no local.</p>
+          </div>
+          <div class="card icon-card" data-aos="zoom-in" data-aos-delay="170">
+            <span class="icon">✔</span>
+            <h3>Relatórios de vendas</h3>
+            <p>Acompanhe faturamento, produtos mais vendidos e horários de pico.</p>
+          </div>
+          <div class="card icon-card" data-aos="zoom-in" data-aos-delay="230">
+            <span class="icon">✔</span>
+            <h3>Integração com pagamentos</h3>
+            <p>Preparado para integração com meios de pagamento online.</p>
+          </div>
+          <div class="card icon-card" data-aos="zoom-in" data-aos-delay="290">
+            <span class="icon">✔</span>
+            <h3>Integração com entregadores</h3>
+            <p>Fluxo pronto para conectar com o app dos motoboys da Foodfix.</p>
+          </div>
+          <div class="card icon-card" data-aos="zoom-in" data-aos-delay="350">
+            <span class="icon">✔</span>
+            <h3>Suporte especializado</h3>
+            <p>Time pronto para ajudar na implantação e no dia a dia.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLANOS -->
+    <section class="section" id="planos">
+      <div class="container">
+        <header class="section-header" data-aos="fade-up">
+          <h2>Planos simples para começar</h2>
+          <p>Comece grátis e evolua conforme o crescimento do seu restaurante.</p>
+        </header>
+
+        <div class="plans">
+          <div class="plan-card" data-aos="fade-up" data-aos-delay="80">
+            <h3>Teste gratuito</h3>
+            <p class="price">R$ 0<span>/14 dias</span></p>
+            <ul>
+              <li>Cardápio digital completo</li>
+              <li>Painel de pedidos</li>
+              <li>Suporte por e-mail</li>
+            </ul>
+            <a href="#contato" class="btn btn-outline full">Começar teste</a>
+          </div>
+
+          <div class="plan-card plan-featured" data-aos="fade-up" data-aos-delay="160">
+            <span class="badge">Mais usado</span>
+            <h3>Plano Profissional</h3>
+            <p class="price">R$ 99<span>/mês</span></p>
+            <ul>
+              <li>Tudo do teste gratuito</li>
+              <li>Relatórios avançados</li>
+              <li>Suporte prioritário</li>
+            </ul>
+            <a href="#contato" class="btn btn-primary full">Quero esse plano</a>
+          </div>
+
+          <div class="plan-card" data-aos="fade-up" data-aos-delay="240">
+            <h3>Plano para redes</h3>
+            <p class="price">Sob consulta</p>
+            <ul>
+              <li>Múltiplas unidades</li>
+              <li>Implantação dedicada</li>
+              <li>Integrações personalizadas</li>
+            </ul>
+            <a href="#contato" class="btn btn-outline full">Falar com vendas</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="section cta-final">
+      <div class="container cta-inner" data-aos="zoom-in">
+        <div>
+          <h2>Pronto para dar o próximo passo no seu restaurante?</h2>
+          <p>Teste a Foodfix na prática e veja como sua operação fica mais organizada.</p>
+        </div>
+        <a href="#contato" class="btn btn-light">Falar com a Foodfix</a>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section section-soft" id="contato">
+      <div class="container contact-grid">
+        <div data-aos="fade-right">
+          <h2>Fale com a gente</h2>
+          <p>Quer tirar dúvidas ou agendar uma demonstração da Foodfix?</p>
+          <p>Preencha o formulário ou fale com a gente pelo WhatsApp.</p>
+          <a href="https://wa.me/5599999999999" target="_blank" class="btn btn-outline">Chamar no WhatsApp</a>
+        </div>
+        <form class="contact-form" data-aos="fade-left">
+          <label>
+            Nome
+            <input type="text" placeholder="Seu nome completo" />
+          </label>
+          <label>
+            Restaurante
+            <input type="text" placeholder="Nome do restaurante" />
+          </label>
+          <label>
+            E-mail
+            <input type="email" placeholder="voce@restaurante.com.br" />
+          </label>
+          <label>
+            WhatsApp
+            <input type="tel" placeholder="(00) 00000-0000" />
+          </label>
+          <label>
+            Mensagem
+            <textarea rows="3" placeholder="Conte um pouco sobre o seu restaurante"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary full">Enviar mensagem</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner" data-aos="fade-up">
+      <div>
+        <div class="brand">
+          <img src="./assets/img/logo-foodfix.svg" alt="Foodfix" class="brand-logo">
+        </div>
+        <p>SaaS de cardápio digital e gestão de pedidos para restaurantes.</p>
+      </div>
+      <span class="footer-copy">© <span id="year"></span> Foodfix</span>
+    </div>
+  </footer>
+
+  <!-- Script do menu + ano -->
+  <script>
+    const navToggle = document.getElementById('navToggle');
+    const nav = document.getElementById('nav');
+
+    navToggle.addEventListener('click', () => {
+      nav.classList.toggle('open');
+    });
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <!-- AOS Script (animações ao rolar) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 700,
+      easing: "ease-out-cubic",
+      once: true
+    });
+  </script>
+</body>
+</html>
